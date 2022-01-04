@@ -1,0 +1,161 @@
+:root {
+  --stone: #272525;
+  --paper: #fffcf8;
+  --highlight: yellow;
+}
+@font-face {
+  font-family: "Roobert";
+  src: url("fonts/Roobert-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Tobias";
+  src: url("fonts/Tobias-Light.woff2") format("woff2");
+}
+
+body {
+  font-family: "Roobert", Helvetica, sans-serif;
+  color: var(--stone);
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2 {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+h2 {
+  z-index: -1;
+}
+
+.display {
+  font-family: "Tobias";
+  font-weight: 200;
+}
+
+.logo {
+  max-width: 40px;
+  margin: 40px;
+}
+
+.space {
+  display: flex;
+  max-width: 1440px;
+  margin-right: auto;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav-item {
+  margin: 20px;
+}
+
+/* Hover Events */
+
+#name:hover,
+#city:hover,
+#objective:hover,
+#results-2:hover {
+  background-color: var(--highlight);
+  cursor: pointer;
+}
+
+/* Animate-in */
+
+#name,
+#city,
+#objective,
+#results-2 {
+  opacity: 0;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  animation: fadein 1s;
+  animation-fill-mode: forwards;
+}
+
+#city {
+  animation-delay: 300ms;
+}
+#objective {
+  animation-delay: 600ms;
+}
+#results-2 {
+  animation-delay: 1000ms;
+}
+
+#role,
+#summary,
+#results-1 {
+  opacity: 0;
+  -webkit-animation: fadein 1200ms; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1200ms; /* Firefox < 16 */
+  -ms-animation: fadein 1200ms; /* Internet Explorer */
+  -o-animation: fadein 1200ms; /* Opera < 12.1 */
+  animation: fadein 1200ms;
+  animation-delay: 1200ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive media queries */
+
+@media (max-width: 768px) {
+  h1,
+  h2 {
+    font-size: 40px;
+    margin: 10px;
+  }
+  .logo {
+    width: 20px;
+    margin: 20px;
+  }
+}
