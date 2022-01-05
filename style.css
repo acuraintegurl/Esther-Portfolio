@@ -82,55 +82,6 @@ h2 {
   background-color: var(--highlight);
   cursor: pointer;
 }
-
-#me .me-img {
-  visibility: hidden;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-#me:hover .me-img {
-  visibility: visible;
-  opacity: 1;
-  z-index: -1;
-  transition: opacity 0.3s ease-in-out;
-}
-
-#location .location-img {
-  visibility: hidden;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-#location:hover .location-img {
-  visibility: visible;
-  opacity: 1;
-  z-index: -1;
-  transition: opacity 0.3s ease-in-out;
-}
-
-#job .job-img {
-  visibility: hidden;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-#job:hover .job-img {
-  visibility: visible;
-  opacity: 1;
-  z-index: -1;
-  transition: opacity 0.3s ease-in-out;
-}
-
 /* Animate-in */
 
 #name,
