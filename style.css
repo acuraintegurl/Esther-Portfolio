@@ -165,6 +165,7 @@ h2 {
   }
   .container {
     padding: 20px;
+    margin-top: 24px;
   }
   .top {
     background: radial-gradient(35% 35% at 40% 40%, #a4bbde 0%, transparent),
