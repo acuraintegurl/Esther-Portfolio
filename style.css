@@ -65,6 +65,11 @@ h2 {
   margin: 20px;
 }
 
+.melbourne {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
 /* Hover Events */
 
 #name:hover,
@@ -73,6 +78,38 @@ h2 {
 #results-2:hover {
   background-color: var(--highlight);
   cursor: pointer;
+}
+
+#location .location-img {
+  visibility: hidden;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#location:hover .location-img {
+  visibility: visible;
+  opacity: 1;
+  z-index: -1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#job .job-img {
+  visibility: hidden;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#job:hover .job-img {
+  visibility: visible;
+  opacity: 1;
+  z-index: -1;
+  transition: opacity 0.3s ease-in-out;
 }
 
 /* Animate-in */
