@@ -167,7 +167,7 @@ h2 {
     padding: 20px;
   }
   .top {
-    background: radial-gradient(35% 25% at 35% 40%, #a4bbde 0%, transparent),
+    background: radial-gradient(35% 35% at 40% 40%, #a4bbde 0%, transparent),
       radial-gradient(30% 20% at 40% 65%, #cbc0ff 0%, transparent),
       radial-gradient(30% 20% at 60% 50%, #ecdb79 0%, transparent);
   }
@@ -175,8 +175,8 @@ h2 {
 
 @media (max-width: 400px) {
   .top {
-    background: radial-gradient(35% 15% at 50% 40%, #a4bbde 0%, transparent),
-      radial-gradient(35% 15% at 30% 65%, #cbc0ff 0%, transparent),
-      radial-gradient(35% 15% at 55% 55%, #ecdb79 0%, transparent);
+    background: radial-gradient(80% 60% at 50% 20%, #a4bbde 0%, transparent),
+      radial-gradient(80% 60% at 30% 65%, #cbc0ff 0%, transparent),
+      radial-gradient(80% 65% at 75% 75%, #ecdb79 0%, transparent);
   }
 }
