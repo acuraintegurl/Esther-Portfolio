@@ -166,4 +166,17 @@ h2 {
   .container {
     padding: 20px;
   }
+  .top {
+    background: radial-gradient(35% 35% at 40% 40%, #a4bbde 0%, transparent),
+      radial-gradient(30% 20% at 40% 65%, #cbc0ff 0%, transparent),
+      radial-gradient(30% 20% at 60% 50%, #ecdb79 0%, transparent);
+  }
+}
+
+@media (max-width: 400px) {
+  .top {
+    background: radial-gradient(35% 15% at 50% 40%, #a4bbde 0%, transparent),
+      radial-gradient(35% 15% at 30% 65%, #cbc0ff 0%, transparent),
+      radial-gradient(35% 15% at 55% 55%, #ecdb79 0%, transparent);
+  }
 }
