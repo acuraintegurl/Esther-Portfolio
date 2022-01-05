@@ -1,6 +1,26 @@
 var divs = ["name", "role", "city", "summary", "objective", "results-1"];
 var visibleId = null;
 
+function displa(id) {
+  if (visibleId === id) {
+    visibleId = id;
+  }
+  rese();
+}
+
+function rese() {
+  var div, i, id;
+  for (i = 0; i < divs.length; i++) {
+    id = divs[i];
+    div = document.getElementById(id);
+    if (visibleId === id) {
+      div.style.visibility = "visible";
+    } else {
+      div.style.visibility = "visible";
+    }
+  }
+}
+
 function display(id) {
   if (visibleId === id) {
     visibleId = id;
