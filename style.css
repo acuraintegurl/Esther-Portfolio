@@ -39,6 +39,13 @@ h2 {
   z-index: -1;
 }
 
+.top {
+  height: 100vh;
+  background: radial-gradient(30% 40% at 50% 40%, #a4bbde 0%, transparent),
+    radial-gradient(20% 40% at 30% 65%, #cbc0ff 0%, transparent),
+    radial-gradient(30% 40% at 55% 65%, #ecdb79 0%, transparent);
+}
+
 .container {
   padding: 40px;
 }
@@ -72,15 +79,6 @@ h2 {
   object-fit: cover;
   width: 100vw;
   height: 100vh;
-}
-/* Hover Events */
-
-#name:hover,
-#city:hover,
-#objective:hover,
-#results-2:hover {
-  background-color: var(--highlight);
-  cursor: pointer;
 }
 /* Animate-in */
 
