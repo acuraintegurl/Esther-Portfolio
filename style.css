@@ -1,7 +1,7 @@
 :root {
   --stone: #272525;
   --paper: #fffcf8;
-  --highlight: yellow;
+  --highlight: rgb(255, 217, 0);
 }
 @font-face {
   font-family: "Roobert";
@@ -78,6 +78,22 @@ h2 {
 #results-2:hover {
   background-color: var(--highlight);
   cursor: pointer;
+}
+
+#me .me-img {
+  visibility: hidden;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#me:hover .me-img {
+  visibility: visible;
+  opacity: 1;
+  z-index: -1;
+  transition: opacity 0.3s ease-in-out;
 }
 
 #location .location-img {

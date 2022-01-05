@@ -1,12 +1,4 @@
-var divs = [
-  "name",
-  "role",
-  "city",
-  "summary",
-  "objective",
-  "results-1",
-  "results-2",
-];
+var divs = ["name", "role", "city", "summary", "objective", "results-1"];
 var visibleId = null;
 
 function display(id) {
