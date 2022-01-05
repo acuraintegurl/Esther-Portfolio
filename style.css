@@ -204,7 +204,7 @@ h2 {
 @media (max-width: 768px) {
   h1,
   h2 {
-    font-size: 40px;
+    font-size: 32px;
     margin: 10px;
   }
   .logo {
