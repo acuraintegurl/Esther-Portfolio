@@ -167,7 +167,7 @@ h2 {
     padding: 20px;
   }
   .top {
-    background: radial-gradient(35% 35% at 40% 40%, #a4bbde 0%, transparent),
+    background: radial-gradient(35% 25% at 35% 40%, #a4bbde 0%, transparent),
       radial-gradient(30% 20% at 40% 65%, #cbc0ff 0%, transparent),
       radial-gradient(30% 20% at 60% 50%, #ecdb79 0%, transparent);
   }
