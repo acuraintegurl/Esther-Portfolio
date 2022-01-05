@@ -26,7 +26,7 @@ a {
 
 h1,
 h2 {
-  font-size: 80px;
+  font-size: 64px;
   font-weight: 500;
 }
 
@@ -39,6 +39,9 @@ h2 {
   z-index: -1;
 }
 
+.container {
+  max-width: 1200px;
+}
 .display {
   font-family: "Tobias";
   font-weight: 200;
