@@ -41,6 +41,8 @@ h2 {
 
 .container {
   max-width: 1200px;
+  margin-top: 5%;
+  padding: 40px;
 }
 .display {
   font-family: "Tobias";
@@ -213,5 +215,8 @@ h2 {
   .logo {
     width: 20px;
     margin: 20px;
+  }
+  .container {
+    padding: 20px;
   }
 }
