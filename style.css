@@ -7,6 +7,23 @@
   --lilac: #d6cffb;
   --sunflower: #fdefa1;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+  color: inherit;
+}
+body {
+  font-family: "Roobert", Helvetica, sans-serif;
+  color: var(--stone);
+}
+em {
+  font-style: normal;
+  font-weight: 600;
+}
 @font-face {
   font-family: "Roobert";
   src: url("fonts/Roobert-Regular.woff2") format("woff2");
@@ -16,42 +33,19 @@
   font-family: "Tobias";
   src: url("fonts/Tobias-Light.woff2") format("woff2");
 }
-
-body {
-  font-family: "Roobert", Helvetica, sans-serif;
-  color: var(--stone);
+i {
+  padding: 10px;
 }
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: inherit;
-}
-
 h1,
 h2 {
   font-size: 72px;
   font-weight: 500;
 }
-
-em {
-  font-style: normal;
-  font-weight: 600;
-}
-
 h3 {
   font-size: 40px;
 }
 
-i {
-  padding: 10px;
-}
-
-.top {
+#background {
   height: 100vh;
   background: radial-gradient(
       30% 40% at 50% 30%,
@@ -63,14 +57,62 @@ i {
   background-position: center center;
 }
 
-.who {
+.contact {
+  position: relative;
+  height: 800px;
+  padding: 40px;
   margin-top: 40px;
-  margin-bottom: 40px;
 }
-
+.contact-details {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 100px;
+}
+.contact-link {
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 5px;
+}
 .display-font {
   font-family: "Tobias";
   font-weight: 200;
+}
+.logo {
+  max-width: 40px;
+  margin: 40px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: inherit;
+}
+
+.nav-link:hover {
+  color: inherit;
+}
+
+.work-writing-etc {
+  position: relative;
+  height: 1200px;
+}
+
+.w-w-e-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 500px;
 }
 
 .section {
@@ -85,15 +127,6 @@ i {
   font-family: "Tobias";
   font-weight: 600;
 }
-.contact {
-  padding: 40px;
-  margin-top: 40px;
-}
-
-.logo {
-  max-width: 40px;
-  margin: 40px;
-}
 
 .space {
   display: flex;
@@ -101,29 +134,9 @@ i {
   margin-right: auto;
 }
 
-.nav-links {
-  display: flex;
-  align-items: center;
-  margin-right: 20px;
-}
-
-.nav-link {
-  color: inherit;
-}
-
-.work-writing-etc {
-  position: relative;
-  height: 800px;
-}
-
-.w-w-e-content {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  height: 500px;
+.who {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 /* Animate-in */
 
