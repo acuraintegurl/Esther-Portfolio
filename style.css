@@ -80,6 +80,10 @@ i {
   margin-top: 5%;
   margin-bottom: 5%;
 }
+.section-title {
+  font-family: "Tobias";
+  font-weight: 600;
+}
 .contact {
   padding: 40px;
   margin-top: 40px;
