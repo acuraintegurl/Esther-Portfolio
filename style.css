@@ -1,5 +1,6 @@
 :root {
   --stone: #272525;
+  --stone-free: #555050;
   --paper: #fffcf8;
   --highlight: rgb(255, 217, 0);
   --periwinkle: #c2d5f1;
@@ -22,8 +23,12 @@ body {
 }
 
 a {
-  font-size: 20px;
   text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
   color: inherit;
 }
 
@@ -42,13 +47,14 @@ h2 {
   z-index: -1;
 }
 
-footer {
-  margin-top: 80px;
+h3 {
+  font-size: 40px;
 }
 
 i {
   padding: 10px;
 }
+
 .top {
   height: 100vh;
   background: radial-gradient(
@@ -62,10 +68,18 @@ i {
 }
 
 .who {
-  padding: 40px;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
+.section {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.sub-section {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 .contact {
   padding: 40px;
   margin-top: 40px;
@@ -97,21 +111,20 @@ i {
   color: inherit;
 }
 
-.nav-link:hover {
-  color: inherit;
-  text-decoration: underline;
+.work-writing-etc {
+  position: relative;
+  height: 800px;
 }
 
-.splash {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
+.w-w-e-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 500px;
 }
-.heights {
-  height: 3000px;
-  background-color: red;
-}
-
 /* Animate-in */
 
 #name,
@@ -127,16 +140,16 @@ i {
 }
 
 #name {
-  animation-delay: 300ms;
+  animation-delay: 400ms;
 }
 #city {
-  animation-delay: 600ms;
+  animation-delay: 800ms;
 }
 #objective {
-  animation-delay: 900ms;
+  animation-delay: 1200ms;
 }
 #results-2 {
-  animation-delay: 12000ms;
+  animation-delay: 16000ms;
 }
 
 #intro,
@@ -144,12 +157,12 @@ i {
 #summary,
 #results-1 {
   opacity: 0;
-  -webkit-animation: fadein 1500ms; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 1500ms; /* Firefox < 16 */
-  -ms-animation: fadein 1500ms; /* Internet Explorer */
-  -o-animation: fadein 1500ms; /* Opera < 12.1 */
-  animation: fadein 1500ms;
-  animation-delay: 1500ms;
+  -webkit-animation: fadein 2000ms; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2000ms; /* Firefox < 16 */
+  -ms-animation: fadein 2000ms; /* Internet Explorer */
+  -o-animation: fadein 2000ms; /* Opera < 12.1 */
+  animation: fadein 2000ms;
+  animation-delay: 2000ms;
   animation-fill-mode: forwards;
 }
 
@@ -195,12 +208,14 @@ i {
     font-size: 50px;
     margin: 10px;
   }
+  h3 {
+    font-size: 32px;
+  }
   .logo {
     width: 30px;
     margin: 40px;
   }
   .who {
-    padding: 20px;
     margin-top: 24px;
   }
   .top {
@@ -221,13 +236,16 @@ i {
     margin: 5px;
   }
 
+  h3 {
+    font-size: 24px;
+  }
+
   .logo {
     width: 30px;
     margin: 20px;
   }
 
   .who {
-    padding: 20px;
     margin-top: 38px;
   }
   .top {
