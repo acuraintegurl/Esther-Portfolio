@@ -2,6 +2,9 @@
   --stone: #272525;
   --paper: #fffcf8;
   --highlight: rgb(255, 217, 0);
+  --periwinkle: #c2d5f1;
+  --lilac: #d6cffb;
+  --sunflower: #fdefa1;
 }
 @font-face {
   font-family: "Roobert";
@@ -45,9 +48,13 @@ footer {
 
 .top {
   height: 100vh;
-  background: radial-gradient(30% 40% at 50% 30%, #a4bbde 0%, transparent),
-    radial-gradient(20% 40% at 30% 55%, #cbc0ff 0%, transparent),
-    radial-gradient(30% 40% at 55% 55%, #ecdb79 0%, transparent);
+  background: radial-gradient(
+      30% 40% at 50% 30%,
+      var(--periwinkle) 0%,
+      transparent
+    ),
+    radial-gradient(20% 40% at 30% 55%, var(--lilac) 0%, transparent),
+    radial-gradient(30% 40% at 55% 55%, var(--sunflower) 0%, transparent);
   background-position: center center;
 }
 
@@ -168,33 +175,42 @@ footer {
 @media (max-width: 768px) {
   h1,
   h2 {
-    font-size: 48px;
+    font-size: 50px;
     margin: 10px;
   }
   .logo {
     width: 20px;
-    margin: 20px;
+    margin: 40px;
   }
   .container {
     padding: 20px;
     margin-top: 24px;
   }
   .top {
-    background: radial-gradient(35% 35% at 40% 40%, #a4bbde 0%, transparent),
-      radial-gradient(30% 20% at 40% 65%, #cbc0ff 0%, transparent),
-      radial-gradient(30% 20% at 60% 50%, #ecdb79 0%, transparent);
+    background: radial-gradient(
+        35% 35% at 40% 40%,
+        var(--periwinkle) 0%,
+        transparent
+      ),
+      radial-gradient(30% 20% at 40% 65%, var(--lilac) 0%, transparent),
+      radial-gradient(30% 20% at 60% 50%, var(--sunflower) 0%, transparent);
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
   h1,
   h2 {
-    font-size: 28px;
+    font-size: 30px;
     margin: 5px;
   }
+
+  .container {
+    padding: 20px;
+    margin-top: 38px;
+  }
   .top {
-    background: radial-gradient(40% 30% at 50% 20%, #a4bbde 0%, transparent),
-      radial-gradient(40% 30% at 30% 55%, #cbc0ff 0%, transparent),
-      radial-gradient(40% 35% at 75% 55%, #ecdb79 0%, transparent);
+    background: radial-gradient(40% 25% at 50% 40%, #c2d5f1 4%, transparent),
+      radial-gradient(40% 25% at 30% 65%, #d6cffb 4%, transparent),
+      radial-gradient(40% 25% at 70% 65%, #fdefa1 4%, transparent);
   }
 }
