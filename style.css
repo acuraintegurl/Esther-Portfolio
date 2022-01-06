@@ -168,7 +168,7 @@ footer {
 @media (max-width: 768px) {
   h1,
   h2 {
-    font-size: 44px;
+    font-size: 48px;
     margin: 10px;
   }
   .logo {
@@ -193,8 +193,8 @@ footer {
     margin: 5px;
   }
   .top {
-    background: radial-gradient(80% 60% at 50% 20%, #a4bbde 0%, transparent),
-      radial-gradient(80% 60% at 30% 65%, #cbc0ff 0%, transparent),
-      radial-gradient(80% 65% at 75% 75%, #ecdb79 0%, transparent);
+    background: radial-gradient(40% 30% at 50% 20%, #a4bbde 0%, transparent),
+      radial-gradient(40% 30% at 30% 55%, #cbc0ff 0%, transparent),
+      radial-gradient(40% 35% at 75% 55%, #ecdb79 0%, transparent);
   }
 }
