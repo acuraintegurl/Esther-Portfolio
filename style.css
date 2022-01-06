@@ -48,6 +48,7 @@ footer {
   background: radial-gradient(30% 40% at 50% 30%, #a4bbde 0%, transparent),
     radial-gradient(20% 40% at 30% 55%, #cbc0ff 0%, transparent),
     radial-gradient(30% 40% at 55% 55%, #ecdb79 0%, transparent);
+  background-position: center center;
 }
 
 .container {
@@ -86,6 +87,11 @@ footer {
   width: 100vw;
   height: 100vh;
 }
+.heights {
+  height: 3000px;
+  background-color: red;
+}
+
 /* Animate-in */
 
 #name,
