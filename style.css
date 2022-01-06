@@ -31,10 +31,6 @@ em {
 }
 
 @font-face {
-  font-family: "Roobert";
-  src: url("fonts/Roobert-Regular.woff2") format("woff2");
-}
-@font-face {
   font-family: "Tobias";
   src: url("fonts/Tobias-Light.woff2") format("woff2");
 }
@@ -260,6 +256,7 @@ h3 {
 
   h3 {
     font-size: 20px;
+    font-weight: bold;
   }
 
   .contact {
@@ -285,8 +282,8 @@ h3 {
         var(--periwinkle) 0%,
         transparent
       ),
-      radial-gradient(40% 25% at 30% 65%, var(--lilac) 0%, transparent),
-      radial-gradient(40% 25% at 60% 65%, var(--sunflower) 0%, transparent);
+      radial-gradient(40% 25% at 30% 60%, var(--lilac) 0%, transparent),
+      radial-gradient(40% 25% at 60% 60%, var(--sunflower) 0%, transparent);
   }
   .home {
     display: none;
