@@ -43,10 +43,6 @@ em {
   font-weight: 600;
 }
 
-h2 {
-  z-index: -1;
-}
-
 h3 {
   font-size: 40px;
 }
@@ -72,6 +68,11 @@ i {
   margin-bottom: 40px;
 }
 
+.display-font {
+  font-family: "Tobias";
+  font-weight: 200;
+}
+
 .section {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -87,11 +88,6 @@ i {
 .contact {
   padding: 40px;
   margin-top: 40px;
-}
-
-.display {
-  font-family: "Tobias";
-  font-weight: 200;
 }
 
 .logo {
@@ -241,7 +237,11 @@ i {
   }
 
   h3 {
-    font-size: 24px;
+    font-size: 20px;
+  }
+
+  .work-writing-etc {
+    height: 600px;
   }
 
   .logo {
