@@ -281,12 +281,12 @@ h3 {
   }
   #background {
     background: radial-gradient(
-        40% 25% at 50% 40%,
+        40% 25% at 50% 30%,
         var(--periwinkle) 0%,
         transparent
       ),
       radial-gradient(40% 25% at 30% 65%, var(--lilac) 0%, transparent),
-      radial-gradient(40% 25% at 70% 65%, var(--sunflower) 0%, transparent);
+      radial-gradient(40% 25% at 60% 65%, var(--sunflower) 0%, transparent);
   }
   .home {
     display: none;
