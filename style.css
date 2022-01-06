@@ -39,16 +39,22 @@ h2 {
   z-index: -1;
 }
 
+footer {
+  margin-top: 80px;
+}
+
 .top {
   height: 100vh;
-  background: radial-gradient(30% 40% at 50% 40%, #a4bbde 0%, transparent),
-    radial-gradient(20% 40% at 30% 65%, #cbc0ff 0%, transparent),
-    radial-gradient(30% 40% at 55% 65%, #ecdb79 0%, transparent);
+  background: radial-gradient(30% 40% at 50% 30%, #a4bbde 0%, transparent),
+    radial-gradient(20% 40% at 30% 55%, #cbc0ff 0%, transparent),
+    radial-gradient(30% 40% at 55% 55%, #ecdb79 0%, transparent);
 }
 
 .container {
   padding: 40px;
+  margin-top: 60px;
 }
+
 .display {
   font-family: "Tobias";
   font-weight: 200;
