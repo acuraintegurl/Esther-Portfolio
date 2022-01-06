@@ -23,13 +23,17 @@ body {
 em {
   font-family: "Roobert", Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: bold;
 }
 @font-face {
   font-family: "Roobert";
   src: url("fonts/Roobert-Regular.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "Roobert";
+  src: url("fonts/Roobert-Regular.woff2") format("woff2");
+}
 @font-face {
   font-family: "Tobias";
   src: url("fonts/Tobias-Light.woff2") format("woff2");
@@ -40,10 +44,9 @@ i {
 h1,
 h2 {
   font-size: 72px;
-  font-weight: 500;
 }
 h3 {
-  font-size: 40px;
+  font-size: 48px;
 }
 
 #background {
@@ -82,7 +85,10 @@ h3 {
 }
 .display-font {
   font-family: "Tobias";
-  font-weight: 200;
+}
+.em-2 {
+  font-family: "Roobert", Helvetica, sans-serif;
+  font-style: normal;
 }
 .logo {
   max-width: 40px;
@@ -281,5 +287,8 @@ h3 {
       ),
       radial-gradient(40% 25% at 30% 65%, var(--lilac) 0%, transparent),
       radial-gradient(40% 25% at 70% 65%, var(--sunflower) 0%, transparent);
+  }
+  .home {
+    display: none;
   }
 }
