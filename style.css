@@ -240,7 +240,7 @@ h3 {
   .who {
     margin-top: 24px;
   }
-  .top {
+  #background {
     background: radial-gradient(
         35% 35% at 40% 40%,
         var(--periwinkle) 0%,
@@ -279,7 +279,7 @@ h3 {
   .who {
     margin-top: 38px;
   }
-  .top {
+  #background {
     background: radial-gradient(
         40% 25% at 50% 40%,
         var(--periwinkle) 0%,
