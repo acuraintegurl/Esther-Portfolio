@@ -209,8 +209,12 @@ footer {
     margin-top: 38px;
   }
   .top {
-    background: radial-gradient(40% 25% at 50% 40%, #c2d5f1 4%, transparent),
-      radial-gradient(40% 25% at 30% 65%, #d6cffb 4%, transparent),
-      radial-gradient(40% 25% at 70% 65%, #fdefa1 4%, transparent);
+    background: radial-gradient(
+        40% 25% at 50% 40%,
+        var(--periwinkle) 0%,
+        transparent
+      ),
+      radial-gradient(40% 25% at 30% 65%, var(--lilac) 0%, transparent),
+      radial-gradient(40% 25% at 70% 65%, var(--sunflower) 0%, transparent);
   }
 }
