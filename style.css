@@ -34,7 +34,7 @@ em {
   src: url("fonts/Tobias-Light.woff2") format("woff2");
 }
 i {
-  padding: 10px;
+  margin-right: 10px;
 }
 h1,
 h2 {
@@ -59,11 +59,13 @@ h3 {
 
 .contact {
   position: relative;
-  height: 800px;
+  height: 500px;
   padding: 40px;
   margin-top: 40px;
 }
 .contact-details {
+  display: flex;
+  align-items: center;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -102,7 +104,7 @@ h3 {
 
 .work-writing-etc {
   position: relative;
-  height: 1200px;
+  height: 1000px;
 }
 
 .w-w-e-content {
@@ -253,6 +255,11 @@ h3 {
     font-size: 20px;
   }
 
+  .contact {
+    height: 400px;
+    padding: 20px;
+    margin-top: 20px;
+  }
   .work-writing-etc {
     height: 600px;
   }
