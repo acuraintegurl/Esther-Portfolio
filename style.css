@@ -203,10 +203,14 @@ footer {
     font-size: 30px;
     margin: 5px;
   }
+  .logo {
+    width: 20px;
+    margin: 20px;
+  }
 
   .container {
     padding: 20px;
-    margin-top: 38px;
+    margin-top: 32px;
   }
   .top {
     background: radial-gradient(
