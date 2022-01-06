@@ -175,6 +175,11 @@ h2 {
 }
 
 @media (max-width: 400px) {
+  h1,
+  h2 {
+    font-size: 24px;
+    margin: 5px;
+  }
   .top {
     background: radial-gradient(80% 60% at 50% 20%, #a4bbde 0%, transparent),
       radial-gradient(80% 60% at 30% 65%, #cbc0ff 0%, transparent),
