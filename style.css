@@ -13,7 +13,6 @@ a {
   color: inherit;
 }
 a:hover {
-  text-decoration: underline;
   color: inherit;
 }
 body {
@@ -85,6 +84,10 @@ h3 {
 .em-2 {
   font-family: "Roobert", Helvetica, sans-serif;
   font-style: normal;
+}
+.em-2:hover {
+  padding-bottom: 2px;
+  border-bottom: 1px solid black;
 }
 .logo {
   max-width: 40px;
@@ -224,7 +227,6 @@ h3 {
   h1,
   h2 {
     font-size: 50px;
-    margin: 10px;
   }
   h3 {
     font-size: 32px;
