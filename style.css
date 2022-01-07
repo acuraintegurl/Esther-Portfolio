@@ -123,13 +123,9 @@ h3 {
   height: 500px;
 }
 
-.section {
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
 .sub-section {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .section-title {
   font-family: "Tobias";
