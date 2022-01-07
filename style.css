@@ -4,7 +4,7 @@
   --paper: #fffcf8;
   --highlight: rgb(255, 217, 0);
   --periwinkle: #c2d5f1;
-  --lilac: #d6cffb;
+  --pink: #ffbeeb;
   --sunflower: #fdefa1;
 }
 
@@ -44,6 +44,19 @@ h3 {
   font-size: 48px;
 }
 
+.about-me {
+  position: relative;
+  height: 600px;
+}
+.about-me-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 300px;
+}
 #background {
   height: 100vh;
   background: radial-gradient(
@@ -51,7 +64,7 @@ h3 {
       var(--periwinkle) 0%,
       transparent
     ),
-    radial-gradient(20% 40% at 30% 55%, var(--lilac) 0%, transparent),
+    radial-gradient(20% 40% at 30% 55%, var(--pink) 0%, transparent),
     radial-gradient(30% 40% at 55% 55%, var(--sunflower) 0%, transparent);
   background-position: center center;
 }
@@ -108,6 +121,9 @@ h3 {
   color: inherit;
 }
 
+.profile-pic {
+  max-width: 800px;
+}
 .work-writing-etc {
   position: relative;
   height: 1000px;
@@ -240,7 +256,7 @@ h3 {
         var(--periwinkle) 0%,
         transparent
       ),
-      radial-gradient(30% 20% at 40% 65%, var(--lilac) 0%, transparent),
+      radial-gradient(30% 20% at 40% 65%, var(--pink) 0%, transparent),
       radial-gradient(30% 20% at 60% 50%, var(--sunflower) 0%, transparent);
   }
 }
@@ -279,7 +295,7 @@ h3 {
         var(--periwinkle) 0%,
         transparent
       ),
-      radial-gradient(50% 25% at 33% 66%, var(--lilac) 0%, transparent),
+      radial-gradient(50% 25% at 33% 66%, var(--pink) 0%, transparent),
       radial-gradient(50% 25% at 66% 66%, var(--sunflower) 0%, transparent);
   }
   .home {
