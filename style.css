@@ -68,7 +68,9 @@ h3 {
     radial-gradient(30% 40% at 55% 55%, var(--sunflower) 0%, transparent);
   background-position: center center;
 }
-
+.bg {
+  background-color: pink;
+}
 .contact {
   position: relative;
   height: 500px;
