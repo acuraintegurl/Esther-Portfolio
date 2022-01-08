@@ -45,17 +45,30 @@ h3 {
 }
 
 .about-me {
-  position: relative;
-  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+.about-body {
+  font-size: large;
+}
+.about-title {
+  font-size: 48px;
 }
 .about-me-content {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+}
+.about-space {
+  width: 100px;
+  height: 100px;
+}
+
+.about-profile-pic {
+  padding: 20px;
+  width: 100%;
 }
 #background {
   height: 100vh;
@@ -121,10 +134,6 @@ h3 {
 
 .nav-link:hover {
   color: inherit;
-}
-
-.profile-pic {
-  max-width: 800px;
 }
 .work-writing-etc {
   position: relative;
@@ -244,6 +253,9 @@ h3 {
   }
   h3 {
     font-size: 32px;
+  }
+  .about-me-content {
+    padding: 30px;
   }
   .logo {
     width: 30px;
