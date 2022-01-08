@@ -85,12 +85,12 @@ h3 {
 #background {
   height: 100vh;
   background: radial-gradient(
-      30% 40% at 50% 30%,
+      30% 40% at 50% 45%,
       var(--periwinkle) 0%,
       transparent
     ),
-    radial-gradient(20% 40% at 30% 55%, var(--pink) 0%, transparent),
-    radial-gradient(30% 40% at 55% 55%, var(--sunflower) 0%, transparent);
+    radial-gradient(20% 33% at 33% 66%, var(--pink) 0%, transparent),
+    radial-gradient(30% 33% at 66% 66%, var(--sunflower) 0%, transparent);
   background-position: center center;
 }
 .bg {
