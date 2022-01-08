@@ -43,6 +43,25 @@ h2 {
 h3 {
   font-size: 48px;
 }
+.cta {
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+.cta:hover {
+  transition: 300ms;
+  background-color: black;
+  color: white;
+}
+
+.about,
+.contact {
+  position: relative;
+  justify-content: center;
+  margin-top: 10%;
+}
 
 .about-me {
   display: flex;
@@ -51,19 +70,12 @@ h3 {
 .about-body {
   font-size: large;
 }
-.about-title {
-  font-size: 48px;
-}
 .about-me-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   padding: 20px;
-}
-.about-space {
-  width: 100px;
-  height: 100px;
 }
 
 .about-profile-pic {
@@ -84,22 +96,13 @@ h3 {
 .bg {
   background-color: pink;
 }
-.contact {
-  position: relative;
-  height: 500px;
-  padding: 40px;
+
+.contact-content {
   margin-top: 40px;
 }
 .contact-details {
   display: flex;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  height: 100px;
+  justify-content: center;
 }
 .contact-link {
   font-size: 20px;
@@ -174,7 +177,10 @@ h3 {
 #name,
 #city,
 #objective,
-#results-2 {
+#results-2,
+#contact,
+#about,
+#background {
   opacity: 0;
   -webkit-animation: fadein 1s;
   -moz-animation: fadein 1s;
@@ -199,7 +205,8 @@ h3 {
 #intro,
 #role,
 #summary,
-#results-1 {
+#results-1,
+#what-i-do {
   opacity: 0;
   -webkit-animation: fadein 2000ms; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2000ms; /* Firefox < 16 */
@@ -254,6 +261,13 @@ h3 {
   h3 {
     font-size: 32px;
   }
+
+  .contact,
+  .about {
+    height: 400px;
+    padding: 20px;
+    margin-top: 40px;
+  }
   .about-me-content {
     padding: 30px;
   }
@@ -286,11 +300,6 @@ h3 {
     font-weight: bold;
   }
 
-  .contact {
-    height: 400px;
-    padding: 20px;
-    margin-top: 20px;
-  }
   .work-writing-etc {
     height: 600px;
   }
