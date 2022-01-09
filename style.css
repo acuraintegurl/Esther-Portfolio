@@ -146,6 +146,7 @@ footer {
   color: inherit;
 }
 .work {
+  margin-top: 100px;
   position: relative;
   height: 800px;
 }
@@ -326,7 +327,8 @@ footer {
       radial-gradient(50% 25% at 33% 66%, var(--pink) 0%, transparent),
       radial-gradient(50% 25% at 66% 66%, var(--sunflower) 0%, transparent);
   }
-  .home {
+  .home,
+  .work-link {
     display: none;
   }
 }
