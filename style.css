@@ -131,7 +131,10 @@ footer {
   max-width: 40px;
   margin: 40px;
 }
-
+.fab {
+  padding: 10px;
+  margin-bottom: 10px;
+}
 .nav-links {
   display: flex;
   align-items: center;
