@@ -43,24 +43,11 @@ h2 {
 h3 {
   font-size: 48px;
 }
-.cta {
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  border: 1px solid black;
-  border-radius: 40px;
-}
-
-.cta:hover {
-  transition: 300ms;
-  background-color: black;
-  color: white;
-}
-
 .about,
 .contact {
   position: relative;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 180px;
 }
 
 .about-me {
@@ -97,18 +84,29 @@ h3 {
   background-color: pink;
 }
 
-.contact-content {
-  margin-top: 40px;
-}
-.contact-details {
-  display: flex;
-  justify-content: center;
-}
 .contact-link {
   font-size: 20px;
   margin-top: 20px;
   padding: 5px;
 }
+
+.contact {
+  padding-top: 20px;
+}
+
+.cta {
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+.cta:hover {
+  transition: 300ms;
+  background-color: black;
+  color: white;
+}
+
 .display-font {
   font-family: "Tobias";
 }
