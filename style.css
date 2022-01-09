@@ -43,11 +43,17 @@ h2 {
 h3 {
   font-size: 48px;
 }
+
+footer {
+  background-color: rgb(240, 240, 240);
+  bottom: 0;
+}
 .about,
 .contact {
   position: relative;
   justify-content: center;
   margin-top: 160px;
+  margin-bottom: 160px;
 }
 
 .about-me {
@@ -141,7 +147,7 @@ h3 {
 }
 .work {
   position: relative;
-  height: 1000px;
+  height: 800px;
 }
 
 .work-content {
@@ -170,7 +176,6 @@ h3 {
 }
 
 .who {
-  margin-bottom: 40px;
   margin-top: 40px;
 }
 /* Animate-in */
@@ -206,8 +211,7 @@ h3 {
 #intro,
 #role,
 #summary,
-#results-1,
-#what-i-do {
+#results-1 {
   opacity: 0;
   -webkit-animation: fadein 2000ms; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2000ms; /* Firefox < 16 */
@@ -301,10 +305,6 @@ h3 {
     font-weight: bold;
   }
 
-  .work-writing-etc {
-    height: 600px;
-  }
-
   .logo {
     width: 30px;
     margin: 20px;
@@ -312,6 +312,10 @@ h3 {
 
   .who {
     margin-top: 38px;
+    padding: 20px;
+  }
+  .work {
+    height: 600px;
   }
   #background {
     background: radial-gradient(
