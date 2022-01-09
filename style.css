@@ -138,12 +138,12 @@ h3 {
 .nav-link:hover {
   color: inherit;
 }
-.work-writing-etc {
+.work {
   position: relative;
   height: 1000px;
 }
 
-.w-w-e-content {
+.work-content {
   position: absolute;
   top: 0;
   bottom: 0;
